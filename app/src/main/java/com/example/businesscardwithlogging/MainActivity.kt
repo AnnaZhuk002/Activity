@@ -43,7 +43,7 @@ class MainActivity : ComponentActivity() {
         }
         Log.i("SimpleDebug", "Creating")
 
-//        finish()
+        finish()
     }
 
     override fun onStart() {
@@ -68,7 +68,7 @@ class MainActivity : ComponentActivity() {
 
     override fun onDestroy() {
         super.onDestroy()
-        Log.i("SimpleDebug", "Resuming")
+        Log.i("SimpleDebug", "Destroying")
     }
 }
 
